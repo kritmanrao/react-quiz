@@ -1,0 +1,11 @@
+export { default as Header } from "./Header.jsx";
+export { default as Error } from "./Error.jsx"; 
+export { default as Main } from "./Main.jsx";
+export { default as Loader } from "./Loader.jsx";
+export { default as StartScreen } from "./StartScreen.jsx";
+export { default as Questions } from "./Questions.jsx";
+export { default as NextButton } from "./NextButton.jsx";
+export { default as Progress } from "./Progress.jsx";
+export { default as FinishScreen } from "./FinishScreen.jsx";
+export { default as Footer } from "./Footer.jsx";
+export { default as Timer } from "./Timer.jsx";
