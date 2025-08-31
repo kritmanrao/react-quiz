@@ -13,7 +13,7 @@ import {
   Timer,
 } from "./components";
 import questionsData from "./data/questions.json";
- 
+
 const SECS_PER_QUESTION = 30;
 
 const initialState = {
@@ -95,9 +95,9 @@ function App() {
   useEffect(function () {
     async function fechQuestion() {
       try {
-        setTimeout(function(){
+        setTimeout(function () {
           dispatch({ type: "dataReceved", payload: questionsData.questions });
-        },500);
+        }, 500);
       } catch (e) {
         dispatch({ type: "dataField" });
         console.log(e);

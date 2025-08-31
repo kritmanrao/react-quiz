@@ -11,8 +11,8 @@ function FinishScreen({ points, maxPoint, highScore, dispatch }) {
   return (
     <>
       <p className="result">
-        <span>{emoji}</span>You scored <strong> {points} </strong> out of {maxPoint}(
-        {Math.ceil(percentage)}) %.
+        <span>{emoji}</span>You scored <strong> {points} </strong> out of{" "}
+        {maxPoint}({Math.ceil(percentage)}) %.
       </p>
 
       <p className="highscore">High score : {highScore}</p>
@@ -25,6 +25,14 @@ function FinishScreen({ points, maxPoint, highScore, dispatch }) {
       >
         Restart Quiz
       </button>
+      <a
+        href="https://www.linkedin.com/in/kritmanrao"
+        className="dev-text"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Dev: kritman rao
+      </a>
     </>
   );
 }
